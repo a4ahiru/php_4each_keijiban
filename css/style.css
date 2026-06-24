@@ -1,0 +1,123 @@
+.header_img{
+    width: 300px;
+}
+
+header ul{
+    display:flex;
+    flex-wrap: wrap;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: black;
+    color: white;
+    
+    
+}
+
+
+header li{
+    margin-right: 60px;
+    list-style:none;
+    font-size: 60%;
+}
+
+
+.box1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box1 .left {
+    width: 80%;
+    
+}
+
+.box1 .left h1{
+    margin: 20px 0px;
+    border-left:4px solid black;
+    border-bottom:2px solid black;
+}
+
+.box1 .left ul{
+    padding-left: 15px;
+    margin: 10px 0px;
+    border:2px solid #ebebeb;
+    background-color:#fbfbfb;
+    list-style:none;
+}
+
+.box1 .left li{
+    margin-top:15px;
+    margin-bottom:5px;
+}
+
+.box1 .left ul h2{
+    border-left:4px solid red;
+    padding-left: 15px;
+}
+
+.box1 .left ul .textInput{
+    width: 300px;
+}
+
+.box1 .left ul .commentInput{
+    height:300px;
+    width: 500px;
+}
+
+.box1 .left ul .button{
+    margin:30px 0px;
+    display: block;
+    padding:4px 10px;
+    border:1px solid #3a3a3a;
+    background-color: #616161;
+    border-radius:5px;
+    color:#ffffff;
+    font-size:14px;
+}
+
+
+.box1 .right {
+    width: 20%;
+    padding-top: 22px;
+    
+    font-size: 80%;
+}
+
+.box1 .right h2{
+    border-bottom:1px dashed black;
+}
+
+.box1 .right ul{
+    list-style:none;
+}
+
+.box1 .right li{
+    margin:0px 20px;
+}
+
+
+.kiji{
+    width: 1469px;
+    margin:20px 0px;
+    padding:20px;
+    border:2px solid #ebebeb;
+    background-color:#fbfbfb;
+}
+
+.kiji h3{
+    border-bottom: 2px solid #ebebeb;
+}
+
+.kiji .handlename{
+    padding:10px 0px;
+    font-size: 90%;
+}
+
+footer{
+    font-size: 80%;
+    padding: 15px 0;
+    text-align: center;
+    color:white;
+    background-color: black;
+    margin-top: 2%;
+}
